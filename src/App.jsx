@@ -1,22 +1,20 @@
-import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+
 import './App.css'
 import Navbar from './Components/Navbar'
-import Header from './Components/Header'
-import Welcome from './Components/Welcome'
-import Services from './Components/Services'
-import WhyChoose from './Components/Whychoose'
+import Main from './Components/Main'
+import Footer from './Components/Footer'
+
+// import { Route, Switch } from 'react-router-dom'
+// import { BrowserRouter } from 'react-router-dom';
+
 
 function App() {
 
   return (
     <>
     <Navbar/>
-    <Header/>
-    <Welcome/>
-    <Services/>
-    <WhyChoose/>
+    <Main/>
+    <Footer/>
     </>
   )
 }

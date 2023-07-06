@@ -15,8 +15,8 @@ function Footer() {
         </div>
         <div className="footer-Right animate__animated animate__backInRight">
             <h3>Contact Details</h3>
-            <h4><i class="fa-solid fa-mobile-screen-button"></i> 8453534523</h4>
-            <h4><i class="fa-regular fa-envelope"></i> info@24x7customer.co.in</h4>
+            <h4><i className="fa-solid fa-mobile-screen-button"></i> 8453534523</h4>
+            <h4><i className="fa-regular fa-envelope"></i> info@24x7customer.co.in</h4>
         </div>
         </div>
      <h4 className="animate__animated animate__backInDown">CopyRight 24x7servicecare.co.in All Rights Resivered </h4>

@@ -7,11 +7,11 @@ export default function Main(){
     <>
     {/* //   Header */}
         <div className="header" id="header">
-        <img className="header-img" src="./src/assets/img/Header.png"/>
-        <div className="header-info">
+        <img className="header-img animate__animated animate__backInLeft" src="https://img.freepik.com/free-vector/realistic-kitchen-appliance_52683-83665.jpg?w=750&t=st=1688636665~exp=1688637265~hmac=4705014fe96cb2a3dd7ace6afd3ea3bfb8f935e42b4d3fd338f8510bc4603942"/>
+        <div className="header-info animate__animated animate__backInRight">
          <h2>Book Your Service</h2>
          <h4>Experience the utmost convenience of same-day doorstep service provided by a trusted partner in Bengaluru.</h4>
-         <form className="form" >
+         <form className="form animate__animated animate__backInRight"  >
              <input type="text" placeholder="Name" />
              <input type="email" placeholder="Email" />
              <input type="phone"placeholder="Phone Number" />
@@ -36,9 +36,9 @@ export default function Main(){
 
        {/* //welcome */}
 
-       <section className="main" id="welcome">
-       <h1>Welcome to Customer Care & Service Blr - Your Trusted Appliance Repair Experts</h1>
-       <div className="main-para">
+       <section className="main " id="welcome">
+       <h1 className="animate__animated animate__backInUp">Welcome to Customer Care & Service Blr - Your Trusted Appliance Repair Experts</h1>
+       <div className="main-para ">
        <p>At Customer Care & Service Blr, we understand the importance of having well-functioning home appliances. That's why we are committed to providing reliable and efficient repair services for your washing machine, refrigerator, and microwave oven. With our team of skilled technicians and a dedication to customer satisfaction, we strive to exceed your expectations and restore the optimal performance of your appliances.</p>  
        <p className="center-p">From minor repairs to complex issues, our experienced professionals are equipped with the knowledge and expertise to handle a wide range of appliance problems. We use state-of-the-art tools and follow industry best practices to ensure that your appliances are repaired promptly and effectively.</p>
        <p>Trust us to deliver exceptional service and get your appliances back up and running smoothly. Contact Customer Care & Service Blr today to schedule an appointment and experience our reliable appliance repair solutions.
@@ -50,19 +50,19 @@ export default function Main(){
         {/* //services */}
       
         <section className="Services" id="Services">
-         <h1>Customer Care & Service Blr offers a comprehensive range of appliance repair services to address your specific needs. Our services include:</h1>
-         <div className="washing service">
-          <div className="washing-info">
+         <h1 className="animate__animated animate__backInUp">Customer Care & Service Blr offers a comprehensive range of appliance repair services to address your specific needs. Our services include:</h1>
+         <div className="washing service ">
+          <div className="washing-info animate__animated animate__backInLeft">
           <h1>Washing Machine Service</h1>
           <h4>Our skilled technicians specialize in washing machine repairs. Whether your machine is not spinning, leaking, or experiencing any other issues, we can diagnose the problem and provide efficient solutions. We handle various types and brands of washing machines, ensuring that your laundry needs are met promptly</h4>
           <a href="tel:82392397433">Call Now | 82392397433</a>
           </div>
-          <img src="./src/assets/img/washingPic.png" className="animate__animated animate__backInRight"/>
+          <img  src="https://img.freepik.com/premium-photo/home-appliance-front-down-view-open-door-washing-machine-isolated_662322-220.jpg?size=626&ext=jpg&uid=R108975617&ga=GA1.1.2091993263.1687766491&semt=ais" className="animate__animated animate__backInRight"/>
          </div>
    
          <div className="Refrigerator service">
-          <img src="./src/assets/img/fridge.png" className="animate__animated animate__backInLeft"/>
-          <div className="Refrigerator-info">
+          <img src="https://img.freepik.com/free-vector/set-realistic-silver-fridges-various-size-isolated-white_1284-28763.jpg?size=526&ext=jpg&uid=R108975617&ga=GA1.2.2091993263.1687766491&semt=sph" className="animate__animated animate__backInLeft"/>
+          <div className="Refrigerator-info animate__animated animate__backInRight">
           <h1>Refrigerator Repair</h1>
           <h4>A malfunctioning refrigerator can lead to food spoilage and inconvenience. Our team is trained to handle refrigerator repairs of different makes and models. We can fix issues such as cooling problems, strange noises, faulty temperature control, and more. Count on us to restore the performance of your refrigerator and preserve your food for longer.</h4>
           <a href="tel:82392397433">Call Now | 82392397433</a>
@@ -70,19 +70,19 @@ export default function Main(){
          </div>
 
          <div className="Microwave service">
-          <div className="Microwave-info">
+          <div className="Microwave-info animate__animated animate__backInLeft">
          <h1>Microwave Oven Service</h1>
          <h4>If your microwave oven is not heating, has electrical problems, or is displaying error codes, our experts are here to help. We have the knowledge and skills to diagnose and repair microwave oven issues efficiently. Trust us to ensure that your microwave oven operates safely and effectively, making your cooking experience hassle-free.</h4>
          <a href="tel:82392397433">Call Now | 82392397433</a>
          </div>
-         <img src="./src/assets/img/Microwave.png" className="animate__animated animate__backInRight"/>
+         <img src="https://img.freepik.com/premium-photo/microwave-oven-isolated-white_93675-75241.jpg?size=626&ext=jpg&uid=R108975617&ga=GA1.2.2091993263.1687766491&semt=ais" className="animate__animated animate__backInRight"/>
          </div>
      </section>
    
  
     {/* //whychoose */}
 
-    <section className="Whychoose" id="Whychoose">
+    <section className="Whychoose animate__animated animate__backInDown" id="Whychoose">
                 <h1>Why Choose Us</h1>
                 <div className="whychoose-info">
                     <div className="whychoose-item">
@@ -124,8 +124,8 @@ export default function Main(){
 
         {/* {contact}  */}
 
-        <section className="Contact">
-         <div className="Contact-info">
+        <section className="Contact" id="contact">
+         <div className="Contact-info animate__animated animate__backInLeft">
             <p>Choose Customer Care & Service Blr for reliable and efficient appliance repairs. Trust us to restore the functionality of your washing machine, refrigerator, or microwave oven. Contact us today to schedule an appointment and enjoy hassle-free appliance repairs.</p>
             <h1>Contact Details</h1>
             <div className="contact-btn">
@@ -153,7 +153,7 @@ export default function Main(){
              <button className="header-btn">Send</button>
          </form>
          </div>
-         <img className="Contact-img" src="./src/assets/img/contactpic.png"/>
+         <img className="Contact-img animate__animated animate__backInRight" src="./src/assets/img/contactpic.png"/>
         </section>
        </>  
     )

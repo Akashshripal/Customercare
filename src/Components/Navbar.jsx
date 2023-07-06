@@ -32,28 +32,28 @@ function Navbar() {
         </div>
      </div>
      </nav> */}
-      <nav class="navbar navbar-light  navbar-expand-lg animate__backInDown" id="nav">
-        <a href="#" class="navbar-brand">Customer Care & Service Blr</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-light  navbar-expand-lg animate__backInDown" id="nav">
+        <a href="#" className="navbar-brand">Customer Care & Service Blr</a>
+        <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div className="collapse navbar-collapse" id="navbarCollapse">
 
-          <ul class="navbar-nav ml-auto nav-ul">
-            <li class="navbar-item">
-              <a href="#header" class="nav-link text-dark">Home</a>
+          <ul className="navbar-nav ml-auto nav-ul">
+            <li className="navbar-item">
+              <a href="#header" className="nav-link text-dark">Home</a>
             </li>
-            <li class="navbar-item">
-              <a href="#welcome" class="nav-link text-dark">About Us</a>
+            <li className="navbar-item">
+              <a href="#welcome" className="nav-link text-dark">About Us</a>
             </li>
-            <li class="navbar-item">
-              <a href="#Services" class="nav-link text-dark">Our Services</a>
+            <li className="navbar-item">
+              <a href="#Services" className="nav-link text-dark">Our Services</a>
             </li>
-            <li class="navbar-item">
-              <a href="#Whychoose" class="nav-link text-dark">Whychoose</a>
+            <li className="navbar-item">
+              <a href="#Whychoose" className="nav-link text-dark">Whychoose</a>
             </li>
-            <li class="navbar-item">
-              <a href="#contact" class="nav-link text-dark">Contact</a>
+            <li className="navbar-item">
+              <a href="#contact" className="nav-link text-dark">Contact</a>
             </li>
           </ul>
         </div>

@@ -440,7 +440,13 @@ letter-spacing: 1px;
   .service {
     flex-direction: column;
     padding: 20px;
+    margin-bottom: 30px;
+
   }
+  .washing-info,.Microwave-info{
+    margin-bottom: 20px;
+  }
+  
   .whychoose-info {
     flex-direction: column;
     padding: 20px;
@@ -484,6 +490,14 @@ letter-spacing: 1px;
 
   .form > * {
     width: 100%;
+  }
+  .nav-Email{
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-icon{
+    /* padding:0 10px; */
+    margin-bottom: 10px;
   }
 }
 

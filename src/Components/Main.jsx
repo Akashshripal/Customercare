@@ -153,7 +153,7 @@ export default function Main(){
              <button className="header-btn">Send</button>
          </form>
          </div>
-         <img className="Contact-img animate__animated animate__backInRight" src="./src/assets/img/contactpic.png"/>
+         <img className="Contact-img animate__animated animate__backInRight" src="https://img.freepik.com/free-photo/full-length-portrait-young-plumber-holding-wrench-ready-work-white-background_662251-3004.jpg?size=826&ext=jpg&uid=R108975617&ga=GA1.2.2091993263.1687766491&semt=ais"/>
         </section>
        </>  
     )
